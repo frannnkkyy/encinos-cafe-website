@@ -1,0 +1,11 @@
+{
+  "name": "encinos-cafe-bistro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web de Encinos Café & Bistro",
+  "scripts": {
+    "dev": "python -m http.server 8080",
+    "check": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}
