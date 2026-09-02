@@ -1,93 +1,264 @@
-<!doctype html>
-<html lang="es-MX">
+<!DOCTYPE html>
+<html lang="es"><!-- Basic -->
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Encinos Café & Bistro en Reynosa: desayunos, café y comida para compartir.">
-  <meta name="theme-color" content="#163a2a">
-  <meta property="og:title" content="Encinos Café & Bistro">
-  <meta property="og:description" content="Un rincón para desayunar, conversar y disfrutar en Reynosa.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/images/about-img.jpg">
-  <title>Encinos Café & Bistro | Reynosa</title>
-  <link rel="icon" href="assets/images/favicon.ico">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <script defer src="assets/js/main.js"></script>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!-- Site Metas -->
+    <title>Encinos Cafe & Bistro</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="Encinos Café & Bistro en Río Bravo, Tamaulipas: desayunos, brunch, parrilla y café.">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+	<!-- custom css -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
+
 <body>
-  <a class="skip-link" href="#contenido">Saltar al contenido</a>
-  <header class="site-header" data-header>
-    <div class="container nav-wrap">
-      <a class="brand" href="#inicio" aria-label="Encinos Café & Bistro, inicio">
-        <img src="assets/images/logo.svg" alt="Encinos Café & Bistro" width="200" height="50">
-      </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" data-nav-toggle>
-        <span class="sr-only">Abrir menú</span><span></span><span></span><span></span>
-      </button>
-      <nav id="main-nav" class="main-nav" aria-label="Navegación principal" data-nav>
-        <a href="#menu">Menú</a><a href="#nosotros">Nosotros</a><a href="#galeria">Galería</a><a href="#contacto">Contacto</a>
-      </nav>
-    </div>
-  </header>
+	<div id="loader">
+		<span class="loader"></span>
+	  </div>
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="assets/images/logo.svg" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+						<li class="nav-item"><a class="nav-link" href="menu.html">Menú</a></li>
+						<li class="nav-item"><a class="nav-link" href="cookbook.html">Recetario</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">Acerca</a></li>
+						<li class="nav-item dropdown">
 
-  <main id="contenido">
-    <section class="hero" id="inicio" aria-labelledby="hero-title">
-      <img class="hero-image" src="assets/images/slider-01.jpg" alt="Hamburguesa artesanal de Encinos con papas" fetchpriority="high">
-      <div class="hero-overlay"></div>
-      <div class="container hero-content">
-        <p class="eyebrow">Café · desayuno · bistro</p>
-        <h1 id="hero-title">Tu mesa favorita<br>te está esperando.</h1>
-        <p class="hero-copy">Sabores honestos, café recién hecho y un espacio tranquilo para disfrutar sin prisa.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#menu">Ver favoritos</a>
-          <a class="button button-ghost" href="tel:+528994564849">Llamar al café</a>
-        </div>
-      </div>
-      <a class="scroll-cue" href="#menu" aria-label="Ir al menú">Explora <span aria-hidden="true">↓</span></a>
-    </section>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
 
-    <section class="section menu-section" id="menu" aria-labelledby="menu-title">
-      <div class="container">
-        <div class="section-heading">
-          <div><p class="eyebrow">Para empezar bien el día</p><h2 id="menu-title">Favoritos de la casa</h2></div>
-          <p>Una pequeña muestra de nuestro menú. Los precios y la disponibilidad pueden cambiar.</p>
-        </div>
-        <div class="menu-grid">
-          <article class="menu-card"><span class="menu-number">01</span><div><h3>Desayuno Encinos</h3><p>Huevos especialidad de la casa, preparados al momento.</p></div><strong>$140</strong></article>
-          <article class="menu-card"><span class="menu-number">02</span><div><h3>Hotcakes mini</h3><p>Una porción dulce acompañada de fruta y café.</p></div><strong>$130</strong></article>
-          <article class="menu-card"><span class="menu-number">03</span><div><h3>Órdenes de huevo</h3><p>El clásico del desayuno con el toque de Encinos.</p></div><strong>$85</strong></article>
-          <article class="menu-card"><span class="menu-number">04</span><div><h3>Hamburguesa de la casa</h3><p>Carne a la parrilla, vegetales frescos y papas.</p></div><strong>Favorita</strong></article>
-        </div>
-        <p class="menu-note">Precios en pesos mexicanos. Confirma el menú vigente al ordenar.</p>
-      </div>
-    </section>
+	<!-- Start slides -->
+	<div id="slides" class="cover-slides">
+		<ul class="slides-container">
+			<li class="text-center">
+				<img src="assets/images/slider-01.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>encinos<br>café & bistro</strong></h1>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="contact.html">Contáctanos</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-center">
+				<img src="assets/images/slider-02.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>encinos<br>café & bistro</strong></h1>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="contact.html">Contáctanos</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-center">
+				<img src="assets/images/slider-03.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>encinos<br>café & bistro</strong></h1>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="contact.html">Contáctanos</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<div class="slides-navigation">
+			<a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+		</div>
+	</div>
+	<!-- End slides -->
 
-    <section class="section story-section" id="nosotros" aria-labelledby="story-title">
-      <div class="container story-grid">
-        <div class="story-image-wrap"><img src="assets/images/about-img.jpg" alt="Fachada de Encinos Café & Bistro" loading="lazy"><span>Reynosa, Tamaulipas</span></div>
-        <div class="story-copy"><p class="eyebrow">Nuestra casa</p><h2 id="story-title">Comida rica, café y conversaciones largas.</h2><p>Encinos nació como un lugar cercano: de esos a los que llegas por un desayuno y vuelves por la experiencia. Aquí reunimos recetas reconfortantes, atención cálida y un ambiente para compartir.</p><p>Ven con familia, amigos o simplemente por una pausa en tu día. Siempre habrá una mesa y una taza listas para ti.</p><a class="text-link" href="#contacto">Cómo llegar <span aria-hidden="true">→</span></a></div>
-      </div>
-    </section>
+	<!-- Start About -->
+	<div class="about-section-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<img src="assets/images/about-img.jpg" alt="" class="img-fluid">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
+					<div class="inner-column">
+						<h1>Bienvenido a <span>Encinos Café & Bistro</span></h1>
+						<br>
+						<p>Encinos Café & Bistro abrió sus puertas por primera vez en el año 2017 con el objetivo de crear una cafetería que busque la satisfacción del cliente creando un ambiente acogedor, en donde los clientes se sientan como en casa.</p>
+						<p>A lo largo de su trayectoria, ha experimentado un crecimiento constante y ha ido innovando cada uno de sus platillos.</p>
+						<p>¡Conoce el menú ahora mismo!</p>
+						<a class="btn btn-lg btn-circle btn-outline-new-white" href="menu.html">Menú</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End About -->
 
-    <section class="section gallery-section" id="galeria" aria-labelledby="gallery-title">
-      <div class="container"><div class="section-heading"><div><p class="eyebrow">Desde nuestra mesa</p><h2 id="gallery-title">Un vistazo a Encinos</h2></div><p>Platillos, detalles y momentos que saben mejor en compañía.</p></div></div>
-      <div class="gallery-grid">
-        <img src="assets/images/gallery-img-01.jpg" alt="Platillo servido en Encinos" loading="lazy"><img src="assets/images/gallery-img-02.jpg" alt="Preparación de la casa" loading="lazy"><img src="assets/images/gallery-img-03.jpg" alt="Café y alimentos de Encinos" loading="lazy"><img src="assets/images/gallery-img-04.jpg" alt="Especialidad del bistro" loading="lazy"><img src="assets/images/gallery-img-05.jpg" alt="Detalle de un platillo" loading="lazy"><img src="assets/images/gallery-img-06.jpg" alt="Mesa preparada en Encinos" loading="lazy">
-      </div>
-    </section>
+	<!-- Start QT -->
+	<div class="qt-box qt-background">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 ml-auto mr-auto text-left">
 
-    <section class="section contact-section" id="contacto" aria-labelledby="contact-title">
-      <div class="container contact-grid">
-        <div><p class="eyebrow">Visítanos</p><h2 id="contact-title">Nos vemos en Encinos.</h2><p class="contact-lead">¿Quieres confirmar horario, disponibilidad o hacer una pregunta? Llámanos o escríbenos directamente.</p></div>
-        <div class="contact-card">
-          <a href="tel:+528994564849"><span>Teléfono</span><strong>+52 899 456 4849</strong></a>
-          <a href="mailto:encinoscafebistro@hotmail.com"><span>Correo</span><strong>encinoscafebistro@hotmail.com</strong></a>
-          <div class="social-links"><a href="https://www.facebook.com/EncinosCafeBistro" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="https://www.instagram.com/encinoscafebistro/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div>
-        </div>
-      </div>
-    </section>
-  </main>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End QT -->
 
-  <footer class="site-footer"><div class="container"><img src="assets/images/logo.svg" alt="Encinos Café & Bistro" width="160" height="40"><p>© <span data-year></span> Encinos Café & Bistro. Hecho con cariño en Reynosa.</p></div></footer>
+	<!-- Start Gallery -->
+	<div class="gallery-box">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2><b>Destacados del mes</b></h2>
+						<p><b>Aqui	los platillos mas seleccionados de este mes!</b>
+
+						</A></p>
+					</div>
+				</div>
+			</div>
+			<div class="tz-gallery">
+				<div class="row">
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<a class="lightbox" href="assets/images/gallery-img-01.jpg">
+							<img class="img-fluid" src="assets/images/gallery-img-01.jpg" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="assets/images/gallery-img-02.jpg">
+							<img class="img-fluid" src="assets/images/gallery-img-02.jpg" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="assets/images/gallery-img-03.jpg">
+							<img class="img-fluid" src="assets/images/gallery-img-03.jpg" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<a class="lightbox" href="assets/images/gallery-img-04.jpg">
+							<img class="img-fluid" src="assets/images/gallery-img-04.jpg" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="assets/images/gallery-img-05.jpg">
+							<img class="img-fluid" src="assets/images/gallery-img-05.jpg" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="assets/images/gallery-img-06.jpg">
+							<img class="img-fluid" src="assets/images/gallery-img-06.jpg" alt="Gallery Images">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Gallery -->
+
+	<!-- Start Footer -->
+	<footer class="footer-area bg-f">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h3>Sobre nosotros</h3>
+					<p class="lead">Nuestro objetivo es su sastifacción y la creación de un ambiente acogedor, en donde usted se sienta como en casa.</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Horarios</h3>
+					<p class="lead">Lunes - Domingo<br>07:00 AM - 10:00 PM</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Contacto</h3>
+					<p class="lead">Av. Las Americas 197, Río Bravo 2, 88950 Cd.Río Bravo, Tamps.</p>
+					<p class="lead"><a href="tel:+528994564849">+52 899 456 4849</a></p>
+					<p><a href="mailto:encinoscafebistro@hotmail.com">encinoscafebistro@hotmail.com</a></p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Redes Sociales</h3>
+					<div class="subscribe_form">
+
+					</div>
+					<ul class="lf-social">
+					<ul>
+						<li>
+							<a href="https://www.facebook.com/EncinosCafeBistro" target="_blank"><i class="fab fa-facebook-f icon"></i></a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/encinoscafebistro/"target="_blank"><i class="fab fa-instagram icon"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="company-name">Todos los derechos reservados. &copy; <span id="year"></span> Encinos Cafe & Bistro
+					</div>
+
+			</div>
+		</div>
+
+	</footer>
+	<!-- End Footer -->
+
+	<a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+	<!-- ALL JS FILES -->
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="assets/js/jquery.superslides.min.js"></script>
+	<script src="assets/js/images-loded.min.js"></script>
+	<script src="assets/js/isotope.min.js"></script>
+	<script src="assets/js/baguetteBox.min.js"></script>
+	<script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+	<script src="assets/js/loader.js"></script>
+	<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
+

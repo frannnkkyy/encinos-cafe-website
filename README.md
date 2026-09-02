@@ -1,31 +1,35 @@
 # Encinos Café & Bistro
 
-Sitio web informativo y responsivo para Encinos Café & Bistro, desarrollado con HTML, CSS y JavaScript sin dependencias de compilación.
-
-## Ver el proyecto
-
-Abre `index.html` directamente o inicia un servidor local:
-
-```bash
-npm run dev
-```
-
-Después visita `http://localhost:8080`.
+Sitio web informativo de Encinos Café & Bistro. Esta versión conserva el diseño original y reorganiza el proyecto para facilitar su mantenimiento y publicación.
 
 ## Estructura
 
 ```text
 assets/
-  css/styles.css   Estilos y diseño responsivo
-  images/          Fotografías e identidad visual
-  js/main.js       Navegación y comportamiento básico
-index.html         Contenido principal
+  css/       Estilos propios y dependencias visuales
+  fonts/     Tipografías e iconos locales
+  images/    Fotografías y recursos gráficos
+  js/        Comportamiento y dependencias del navegador
+tools/       Validación y generación del sitio
+*.html       Páginas públicas
 ```
+
+## Desarrollo
+
+```bash
+npm run check
+npm run dev
+```
+
+El servidor local queda disponible en `http://localhost:8080`.
 
 ## Publicación
 
-El proyecto es compatible con GitHub Pages. En el repositorio, activa Pages desde **Settings → Pages** y selecciona la rama principal.
+Ejecuta `npm run build` para generar la versión publicable dentro de `dist/`.
 
-## Nota sobre formularios
+## Decisiones técnicas
 
-La versión anterior incluía ejemplos PHP incompletos que guardaban contraseñas sin cifrar. Fueron excluidos de esta versión. Cualquier registro o formulario futuro debe usar un servicio backend seguro, validación del lado del servidor y contraseñas protegidas con hash.
+- Se conservaron el layout, estilos, fotografías y contenido del menú original.
+- Se retiraron páginas de demostración sin adaptar y ejemplos PHP/MySQL inseguros que no formaban parte del sitio visible.
+- Los scripts propios ahora comprueban que sus elementos existan antes de usarlos.
+- La versión pública no contiene contraseñas, credenciales ni configuración de base de datos.
